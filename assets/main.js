@@ -9,3 +9,9 @@ var color =prompt('inserisci il tuo colore preferito');
 
 //combina i dati precedenti per creare la password
 var password = document.getElementById('passw').innerHTML = nameu + surname + color + '21';
+
+//aggiunto il risultato della password in maiuscolo
+/* var uppercasePassword = password.toUpperCase();
+
+var result = document.getElementById("passw");
+result.innerHTML = uppercasePassword; */
